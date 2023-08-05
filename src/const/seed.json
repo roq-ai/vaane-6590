@@ -1,0 +1,2022 @@
+[
+  {
+    "branch": [
+      {
+        "id": "d03425f8-dc7b-447d-a56d-808801a95ca8",
+        "name": "New York Branch",
+        "created_at": "2023-08-04T18:35:32.512Z",
+        "updated_at": "2023-08-05T12:43:52.477Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11f2ca07-70d0-4bc0-ad05-31154db59389",
+        "name": "London Branch",
+        "created_at": "2023-08-04T21:21:41.795Z",
+        "updated_at": "2023-08-05T08:37:34.408Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb4a5275-8e8d-4bc7-b362-c9908be2de62",
+        "name": "Tokyo Branch",
+        "created_at": "2023-08-05T02:07:44.389Z",
+        "updated_at": "2023-08-04T15:37:45.093Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "accbe62b-3c88-44a3-b32c-dcd96c1e0316",
+        "name": "Sydney Branch",
+        "created_at": "2023-08-05T06:12:17.026Z",
+        "updated_at": "2023-08-04T18:57:36.709Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1627d910-7f1f-4723-8283-6d3798cf3002",
+        "name": "Paris Branch",
+        "created_at": "2023-08-05T08:44:19.197Z",
+        "updated_at": "2023-08-05T07:18:23.668Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "88a40490-ae1c-4e7b-a7f1-fbe47e98b6d9",
+        "created_at": "2023-08-04T18:53:43.828Z",
+        "updated_at": "2023-08-05T03:44:57.012Z",
+        "branch_id": "fb4a5275-8e8d-4bc7-b362-c9908be2de62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "312036b3-7663-4bec-8ed2-ef4e24d1e4e7",
+        "created_at": "2023-08-05T11:14:51.428Z",
+        "updated_at": "2023-08-05T06:15:15.525Z",
+        "branch_id": "11f2ca07-70d0-4bc0-ad05-31154db59389",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51fb5502-f130-47f6-b288-feb333520187",
+        "created_at": "2023-08-05T09:24:51.972Z",
+        "updated_at": "2023-08-04T22:16:44.503Z",
+        "branch_id": "11f2ca07-70d0-4bc0-ad05-31154db59389",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7523b2cb-8b85-40cb-abe4-511554692ada",
+        "created_at": "2023-08-04T20:39:16.062Z",
+        "updated_at": "2023-08-04T14:41:42.300Z",
+        "branch_id": "d03425f8-dc7b-447d-a56d-808801a95ca8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2692a955-8a96-4de9-af25-f8d4a72c6d1e",
+        "created_at": "2023-08-04T15:15:34.333Z",
+        "updated_at": "2023-08-04T23:22:51.899Z",
+        "branch_id": "accbe62b-3c88-44a3-b32c-dcd96c1e0316",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "f927f7d4-2619-418e-a55a-6b0155fb5179",
+        "amount": 96076,
+        "created_at": "2023-08-05T05:22:51.383Z",
+        "updated_at": "2023-08-05T09:14:48.724Z",
+        "branch_id": "1627d910-7f1f-4723-8283-6d3798cf3002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0909242-872d-4060-82d8-b8ebc9f54558",
+        "amount": 81677,
+        "created_at": "2023-08-04T16:54:32.568Z",
+        "updated_at": "2023-08-04T16:07:50.598Z",
+        "branch_id": "1627d910-7f1f-4723-8283-6d3798cf3002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3166537f-6330-4512-b707-399e532bf1d0",
+        "amount": 51616,
+        "created_at": "2023-08-05T01:22:05.327Z",
+        "updated_at": "2023-08-04T19:32:43.033Z",
+        "branch_id": "1627d910-7f1f-4723-8283-6d3798cf3002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af73813b-6d4e-438c-bfac-9a68f039c7da",
+        "amount": 26469,
+        "created_at": "2023-08-05T04:21:07.267Z",
+        "updated_at": "2023-08-04T23:05:12.929Z",
+        "branch_id": "fb4a5275-8e8d-4bc7-b362-c9908be2de62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5658e3b6-306b-4a1d-84cd-ee1dd3410c25",
+        "amount": 87226,
+        "created_at": "2023-08-05T09:55:08.045Z",
+        "updated_at": "2023-08-04T20:20:55.188Z",
+        "branch_id": "d03425f8-dc7b-447d-a56d-808801a95ca8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "1911f7fe-b5da-42a8-964e-32b8efde642c",
+        "amount": 31940,
+        "created_at": "2023-08-04T17:13:35.586Z",
+        "updated_at": "2023-08-04T20:29:49.052Z",
+        "branch_id": "1627d910-7f1f-4723-8283-6d3798cf3002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f6b0bfe-cb3c-4e8b-a265-3bbb1cd2f136",
+        "amount": 98704,
+        "created_at": "2023-08-05T09:36:28.649Z",
+        "updated_at": "2023-08-05T01:22:31.316Z",
+        "branch_id": "1627d910-7f1f-4723-8283-6d3798cf3002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58975937-1482-4781-8d6f-2d58b42b916d",
+        "amount": 57642,
+        "created_at": "2023-08-04T21:50:53.300Z",
+        "updated_at": "2023-08-05T13:39:03.089Z",
+        "branch_id": "d03425f8-dc7b-447d-a56d-808801a95ca8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6f1314a-1d5d-42b3-bef0-75077409f652",
+        "amount": 73351,
+        "created_at": "2023-08-04T21:32:04.065Z",
+        "updated_at": "2023-08-05T04:11:47.781Z",
+        "branch_id": "11f2ca07-70d0-4bc0-ad05-31154db59389",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c6f2e21-41fd-44cb-a2f8-3f490accea70",
+        "amount": 79504,
+        "created_at": "2023-08-05T09:44:09.989Z",
+        "updated_at": "2023-08-04T16:50:42.803Z",
+        "branch_id": "d03425f8-dc7b-447d-a56d-808801a95ca8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "a9a3241f-ff49-464a-a29a-0a66885d29cd",
+        "source": "Website",
+        "created_at": "2023-08-05T07:03:56.779Z",
+        "updated_at": "2023-08-05T13:44:37.763Z",
+        "branch_id": "accbe62b-3c88-44a3-b32c-dcd96c1e0316",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7a876eb-09cd-483d-8b6e-ad37a07ad5ff",
+        "source": "Referral",
+        "created_at": "2023-08-05T05:23:26.684Z",
+        "updated_at": "2023-08-05T13:52:22.652Z",
+        "branch_id": "d03425f8-dc7b-447d-a56d-808801a95ca8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "732e189e-3852-46f3-b551-a9285eaf9636",
+        "source": "Social Media",
+        "created_at": "2023-08-04T22:16:22.264Z",
+        "updated_at": "2023-08-04T16:09:22.982Z",
+        "branch_id": "11f2ca07-70d0-4bc0-ad05-31154db59389",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85e5f388-b1ee-4d6c-b55e-e47ce77ca4ff",
+        "source": "Event",
+        "created_at": "2023-08-05T09:01:01.712Z",
+        "updated_at": "2023-08-04T18:05:41.052Z",
+        "branch_id": "1627d910-7f1f-4723-8283-6d3798cf3002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d2e28fc-9d4b-41dd-aec4-1e7afcda7ab8",
+        "source": "Advertisement",
+        "created_at": "2023-08-05T06:34:03.745Z",
+        "updated_at": "2023-08-05T13:22:21.407Z",
+        "branch_id": "accbe62b-3c88-44a3-b32c-dcd96c1e0316",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "6780cd88-5e90-478e-a5dc-58d2ad985e32",
+        "name": "New York Branch",
+        "created_at": "2023-08-05T14:03:14.131Z",
+        "updated_at": "2023-08-04T22:49:19.426Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "09106170-cc99-43d1-9e1f-0d0392b65ebb",
+        "name": "London Branch",
+        "created_at": "2023-08-05T00:09:35.253Z",
+        "updated_at": "2023-08-05T04:45:02.435Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7f1b8d59-6d7c-4462-870b-30e387b7ad96",
+        "name": "Tokyo Branch",
+        "created_at": "2023-08-04T19:05:37.155Z",
+        "updated_at": "2023-08-04T23:05:04.655Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "adaed0f1-fbb1-4fa1-af72-dcb8c0bc7898",
+        "name": "Sydney Branch",
+        "created_at": "2023-08-05T13:15:11.882Z",
+        "updated_at": "2023-08-04T15:36:49.270Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "name": "Paris Branch",
+        "created_at": "2023-08-04T17:18:52.626Z",
+        "updated_at": "2023-08-04T20:46:59.517Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "434f3f5b-47cc-41b9-9ead-2bea80cdb347",
+        "created_at": "2023-08-04T20:40:58.683Z",
+        "updated_at": "2023-08-05T08:46:55.356Z",
+        "branch_id": "adaed0f1-fbb1-4fa1-af72-dcb8c0bc7898",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a8a91ca-ce1d-4321-ad81-a34afbba12b9",
+        "created_at": "2023-08-04T16:56:44.228Z",
+        "updated_at": "2023-08-05T11:42:41.932Z",
+        "branch_id": "09106170-cc99-43d1-9e1f-0d0392b65ebb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5ccca9c-6576-4d9c-b9ce-aa90df09e52d",
+        "created_at": "2023-08-04T18:37:14.767Z",
+        "updated_at": "2023-08-05T05:46:54.145Z",
+        "branch_id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "950de618-40f3-4bd8-9e2a-595a014bc27d",
+        "created_at": "2023-08-05T09:38:23.157Z",
+        "updated_at": "2023-08-04T14:53:20.787Z",
+        "branch_id": "7f1b8d59-6d7c-4462-870b-30e387b7ad96",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f02f6336-0ec1-4630-9ee5-8f149e4ad2bf",
+        "created_at": "2023-08-05T04:54:11.263Z",
+        "updated_at": "2023-08-05T06:59:25.286Z",
+        "branch_id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "d502214c-847d-4c03-acde-7eacb8ea9e8e",
+        "amount": 16782,
+        "created_at": "2023-08-04T22:47:31.845Z",
+        "updated_at": "2023-08-04T16:19:26.833Z",
+        "branch_id": "6780cd88-5e90-478e-a5dc-58d2ad985e32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4189f02e-1e07-4234-9272-0aca01ffb552",
+        "amount": 54763,
+        "created_at": "2023-08-04T15:04:40.821Z",
+        "updated_at": "2023-08-05T10:40:00.726Z",
+        "branch_id": "09106170-cc99-43d1-9e1f-0d0392b65ebb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a357b07-7d08-4674-b78c-e0aa3699138d",
+        "amount": 53006,
+        "created_at": "2023-08-05T04:17:15.162Z",
+        "updated_at": "2023-08-04T22:06:30.893Z",
+        "branch_id": "adaed0f1-fbb1-4fa1-af72-dcb8c0bc7898",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "decd4f23-579a-4227-a384-f10b93d4860e",
+        "amount": 89960,
+        "created_at": "2023-08-04T18:48:38.910Z",
+        "updated_at": "2023-08-05T05:29:14.812Z",
+        "branch_id": "09106170-cc99-43d1-9e1f-0d0392b65ebb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5d71ed5-dd5a-4a56-8e90-0c25c284111b",
+        "amount": 35429,
+        "created_at": "2023-08-05T01:18:37.905Z",
+        "updated_at": "2023-08-05T12:41:02.025Z",
+        "branch_id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "83c7d081-6a30-49fb-9fa0-e65ed7f8e0ad",
+        "amount": 11799,
+        "created_at": "2023-08-05T09:25:36.038Z",
+        "updated_at": "2023-08-04T18:44:41.394Z",
+        "branch_id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "889c1598-423a-4da9-9dd0-026a2ef6298c",
+        "amount": 99337,
+        "created_at": "2023-08-05T12:01:19.995Z",
+        "updated_at": "2023-08-05T05:48:29.007Z",
+        "branch_id": "6780cd88-5e90-478e-a5dc-58d2ad985e32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e950a65-2f83-4e85-b109-9f88eb861e0a",
+        "amount": 1736,
+        "created_at": "2023-08-04T16:41:13.808Z",
+        "updated_at": "2023-08-05T06:48:55.662Z",
+        "branch_id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e295373a-71ab-479c-91dd-b852ffdcedca",
+        "amount": 36787,
+        "created_at": "2023-08-04T22:25:25.904Z",
+        "updated_at": "2023-08-05T11:46:24.500Z",
+        "branch_id": "09106170-cc99-43d1-9e1f-0d0392b65ebb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c46359b1-652f-4c23-b7cc-3255e4c95eb4",
+        "amount": 63600,
+        "created_at": "2023-08-05T08:28:01.319Z",
+        "updated_at": "2023-08-04T19:19:55.831Z",
+        "branch_id": "6780cd88-5e90-478e-a5dc-58d2ad985e32",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "17a3f1bd-b25b-4ecc-be5b-798c895a6cec",
+        "source": "Website",
+        "created_at": "2023-08-05T06:57:13.282Z",
+        "updated_at": "2023-08-05T11:02:08.311Z",
+        "branch_id": "adaed0f1-fbb1-4fa1-af72-dcb8c0bc7898",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc5a37e9-ae37-4814-a685-dec848c7eb5e",
+        "source": "Referral",
+        "created_at": "2023-08-05T05:01:17.782Z",
+        "updated_at": "2023-08-05T08:25:18.359Z",
+        "branch_id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90735031-7fc5-4e29-91e4-06f1e0ccd866",
+        "source": "Social Media",
+        "created_at": "2023-08-04T14:37:41.896Z",
+        "updated_at": "2023-08-05T08:33:12.216Z",
+        "branch_id": "c0b13435-9320-4514-8d80-a071c51caf64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e78ab4fd-fa59-46e7-b380-ed724bd27128",
+        "source": "Event",
+        "created_at": "2023-08-04T15:10:23.383Z",
+        "updated_at": "2023-08-05T06:59:28.224Z",
+        "branch_id": "7f1b8d59-6d7c-4462-870b-30e387b7ad96",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30b2d87f-8b05-4d85-abdd-797bb47f25da",
+        "source": "Advertisement",
+        "created_at": "2023-08-05T12:16:35.507Z",
+        "updated_at": "2023-08-05T11:19:53.401Z",
+        "branch_id": "7f1b8d59-6d7c-4462-870b-30e387b7ad96",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "ae806c62-4317-4e0c-8607-b218957afbd5",
+        "name": "Main Branch",
+        "created_at": "2023-08-05T02:17:47.619Z",
+        "updated_at": "2023-08-05T13:38:16.601Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "918ed281-b5a6-4ed3-819e-6fcd0175d82d",
+        "name": "Downtown Branch",
+        "created_at": "2023-08-05T04:59:03.833Z",
+        "updated_at": "2023-08-05T06:10:28.691Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "27b5ddaf-37a6-495c-9cfc-26f3474fcd15",
+        "name": "North Branch",
+        "created_at": "2023-08-05T12:37:43.520Z",
+        "updated_at": "2023-08-04T15:54:21.137Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6e7d407a-590b-4b93-b5d1-c0c3f7db2d92",
+        "name": "South Branch",
+        "created_at": "2023-08-05T03:19:28.358Z",
+        "updated_at": "2023-08-05T01:40:37.596Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2d7f0495-bef8-4a49-b459-b8b02667c3ee",
+        "name": "West Branch",
+        "created_at": "2023-08-04T17:56:35.795Z",
+        "updated_at": "2023-08-04T18:19:50.794Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "79c250c5-55cc-4a52-afa6-6ff9ecafdd19",
+        "created_at": "2023-08-05T10:18:05.325Z",
+        "updated_at": "2023-08-05T04:41:21.222Z",
+        "branch_id": "ae806c62-4317-4e0c-8607-b218957afbd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38c8c0ce-7f96-46df-af4a-ff1c7594a106",
+        "created_at": "2023-08-05T14:12:53.906Z",
+        "updated_at": "2023-08-05T00:24:22.820Z",
+        "branch_id": "27b5ddaf-37a6-495c-9cfc-26f3474fcd15",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "482b3786-eb5a-44e6-9344-2ab48123b34f",
+        "created_at": "2023-08-05T05:00:25.036Z",
+        "updated_at": "2023-08-05T08:15:57.601Z",
+        "branch_id": "918ed281-b5a6-4ed3-819e-6fcd0175d82d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72b8007a-ecae-40d5-882d-3f866ee6b83a",
+        "created_at": "2023-08-04T15:28:08.056Z",
+        "updated_at": "2023-08-05T11:51:51.743Z",
+        "branch_id": "6e7d407a-590b-4b93-b5d1-c0c3f7db2d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04c3a819-642f-4590-ab9e-b5d1e7bd862c",
+        "created_at": "2023-08-05T00:12:40.502Z",
+        "updated_at": "2023-08-05T12:56:17.911Z",
+        "branch_id": "2d7f0495-bef8-4a49-b459-b8b02667c3ee",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "8f321d82-ea20-4a5c-baf6-c50d5290e8a2",
+        "amount": 21996,
+        "created_at": "2023-08-04T20:12:51.128Z",
+        "updated_at": "2023-08-05T09:10:01.156Z",
+        "branch_id": "27b5ddaf-37a6-495c-9cfc-26f3474fcd15",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fec96bb4-ee50-4914-a910-7aa261b1fd18",
+        "amount": 46436,
+        "created_at": "2023-08-04T21:57:59.618Z",
+        "updated_at": "2023-08-05T01:45:06.234Z",
+        "branch_id": "6e7d407a-590b-4b93-b5d1-c0c3f7db2d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d146739a-3041-4b3d-8daa-e8cf1937a491",
+        "amount": 74196,
+        "created_at": "2023-08-05T03:53:24.793Z",
+        "updated_at": "2023-08-04T17:53:55.249Z",
+        "branch_id": "2d7f0495-bef8-4a49-b459-b8b02667c3ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66c110b3-498d-4075-bfb7-9bc60aeb8672",
+        "amount": 81679,
+        "created_at": "2023-08-04T16:23:28.977Z",
+        "updated_at": "2023-08-05T04:19:20.917Z",
+        "branch_id": "27b5ddaf-37a6-495c-9cfc-26f3474fcd15",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1499f750-57df-4b2f-bff6-ede4ae9c0c7b",
+        "amount": 37404,
+        "created_at": "2023-08-05T03:24:05.934Z",
+        "updated_at": "2023-08-04T14:58:16.056Z",
+        "branch_id": "27b5ddaf-37a6-495c-9cfc-26f3474fcd15",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "e630540f-f3b4-4ea8-ae85-d57f3dcbf4e4",
+        "amount": 15383,
+        "created_at": "2023-08-05T11:44:49.390Z",
+        "updated_at": "2023-08-05T00:00:43.175Z",
+        "branch_id": "918ed281-b5a6-4ed3-819e-6fcd0175d82d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "906a1550-3ea6-4eaa-86d7-b85ece92ba57",
+        "amount": 93421,
+        "created_at": "2023-08-05T00:28:02.986Z",
+        "updated_at": "2023-08-04T15:20:40.374Z",
+        "branch_id": "6e7d407a-590b-4b93-b5d1-c0c3f7db2d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46864dfc-59d8-4045-8175-169ac2e79e99",
+        "amount": 60531,
+        "created_at": "2023-08-05T02:07:35.046Z",
+        "updated_at": "2023-08-05T09:29:23.280Z",
+        "branch_id": "ae806c62-4317-4e0c-8607-b218957afbd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54262922-e85d-44eb-954c-a6c0575efa40",
+        "amount": 14773,
+        "created_at": "2023-08-04T22:23:18.483Z",
+        "updated_at": "2023-08-05T01:35:06.685Z",
+        "branch_id": "6e7d407a-590b-4b93-b5d1-c0c3f7db2d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "914e2367-ef17-4af4-a290-3c6ac03302a3",
+        "amount": 31000,
+        "created_at": "2023-08-04T22:49:25.221Z",
+        "updated_at": "2023-08-04T16:04:12.305Z",
+        "branch_id": "27b5ddaf-37a6-495c-9cfc-26f3474fcd15",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "c5d92995-61be-4e02-98c4-42a57c32899c",
+        "source": "Website",
+        "created_at": "2023-08-05T04:58:43.114Z",
+        "updated_at": "2023-08-04T17:01:26.520Z",
+        "branch_id": "ae806c62-4317-4e0c-8607-b218957afbd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a1b437d-fab0-495c-b872-608a5b1e023c",
+        "source": "Referral",
+        "created_at": "2023-08-05T08:23:19.630Z",
+        "updated_at": "2023-08-05T13:46:48.941Z",
+        "branch_id": "27b5ddaf-37a6-495c-9cfc-26f3474fcd15",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c07e2762-c541-432c-9663-7edb2e8c61d6",
+        "source": "Social Media",
+        "created_at": "2023-08-05T09:01:38.563Z",
+        "updated_at": "2023-08-05T12:26:26.062Z",
+        "branch_id": "2d7f0495-bef8-4a49-b459-b8b02667c3ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ada30ab-1fd7-49ef-8582-eeafa5002168",
+        "source": "Event",
+        "created_at": "2023-08-05T13:56:11.220Z",
+        "updated_at": "2023-08-05T10:15:55.966Z",
+        "branch_id": "6e7d407a-590b-4b93-b5d1-c0c3f7db2d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79b5d3a9-9e0b-4a39-9be9-7a4bea74f392",
+        "source": "Advertisement",
+        "created_at": "2023-08-05T07:26:30.225Z",
+        "updated_at": "2023-08-05T04:28:43.332Z",
+        "branch_id": "6e7d407a-590b-4b93-b5d1-c0c3f7db2d92",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "a458fc41-81ea-42f2-b06b-436accf5186f",
+        "name": "New York",
+        "created_at": "2023-08-05T13:01:12.530Z",
+        "updated_at": "2023-08-05T02:05:15.201Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4330d785-dbef-4c70-9491-9b2d46eed273",
+        "name": "London",
+        "created_at": "2023-08-05T07:41:12.690Z",
+        "updated_at": "2023-08-04T22:13:22.574Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "db8e2069-c1ce-4519-9f0d-85f467bc7c8c",
+        "name": "Tokyo",
+        "created_at": "2023-08-04T23:11:14.552Z",
+        "updated_at": "2023-08-04T16:21:21.776Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9a145518-b5ec-4712-b42a-44e0fca1efc7",
+        "name": "Sydney",
+        "created_at": "2023-08-04T16:13:01.866Z",
+        "updated_at": "2023-08-05T12:03:31.953Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5164a586-8276-4574-a0a6-a7a23582f96e",
+        "name": "Paris",
+        "created_at": "2023-08-04T15:19:16.424Z",
+        "updated_at": "2023-08-05T00:33:04.941Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "cd1fe278-5144-4a18-bb92-964313975824",
+        "created_at": "2023-08-05T04:03:29.557Z",
+        "updated_at": "2023-08-05T02:19:55.591Z",
+        "branch_id": "a458fc41-81ea-42f2-b06b-436accf5186f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c35024a-4dd3-42b7-90fc-46934aba9fb9",
+        "created_at": "2023-08-05T14:11:38.019Z",
+        "updated_at": "2023-08-04T18:45:49.297Z",
+        "branch_id": "9a145518-b5ec-4712-b42a-44e0fca1efc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb45d6d4-b6a9-43b8-86ae-1e20b57bbd3c",
+        "created_at": "2023-08-05T13:27:49.278Z",
+        "updated_at": "2023-08-04T20:32:29.714Z",
+        "branch_id": "5164a586-8276-4574-a0a6-a7a23582f96e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43aa9188-20bc-49cb-b1da-2458352ae8a5",
+        "created_at": "2023-08-05T13:27:13.277Z",
+        "updated_at": "2023-08-05T07:34:17.596Z",
+        "branch_id": "9a145518-b5ec-4712-b42a-44e0fca1efc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbeecac4-ebb4-47ec-b814-82052dd25c1e",
+        "created_at": "2023-08-05T11:51:40.269Z",
+        "updated_at": "2023-08-05T08:09:56.417Z",
+        "branch_id": "db8e2069-c1ce-4519-9f0d-85f467bc7c8c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "900c8909-b10f-4588-b5f1-bc88bdbe028d",
+        "amount": 63539,
+        "created_at": "2023-08-04T20:51:39.399Z",
+        "updated_at": "2023-08-05T05:20:31.643Z",
+        "branch_id": "4330d785-dbef-4c70-9491-9b2d46eed273",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "920cae39-2f31-4079-b748-c52b6c848c7f",
+        "amount": 49096,
+        "created_at": "2023-08-04T22:19:06.476Z",
+        "updated_at": "2023-08-04T22:37:01.663Z",
+        "branch_id": "9a145518-b5ec-4712-b42a-44e0fca1efc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af9bacb5-4ff9-4bb4-b882-1cc597314fc2",
+        "amount": 77843,
+        "created_at": "2023-08-04T20:01:51.451Z",
+        "updated_at": "2023-08-05T11:36:19.050Z",
+        "branch_id": "a458fc41-81ea-42f2-b06b-436accf5186f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dac955f6-fa76-4656-80a8-19d5a270696b",
+        "amount": 52753,
+        "created_at": "2023-08-05T11:05:54.001Z",
+        "updated_at": "2023-08-05T06:52:39.116Z",
+        "branch_id": "4330d785-dbef-4c70-9491-9b2d46eed273",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "862a77cd-6d40-4036-8a0c-53239bdb7775",
+        "amount": 76567,
+        "created_at": "2023-08-04T16:30:33.828Z",
+        "updated_at": "2023-08-04T18:09:11.875Z",
+        "branch_id": "4330d785-dbef-4c70-9491-9b2d46eed273",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "802a725c-f9ef-4721-91d5-700cb72b60df",
+        "amount": 84694,
+        "created_at": "2023-08-05T00:38:58.627Z",
+        "updated_at": "2023-08-05T02:40:21.454Z",
+        "branch_id": "a458fc41-81ea-42f2-b06b-436accf5186f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c29344e-ab9f-47bf-a531-34cf18f43ef4",
+        "amount": 11303,
+        "created_at": "2023-08-05T07:15:07.429Z",
+        "updated_at": "2023-08-05T00:41:19.317Z",
+        "branch_id": "db8e2069-c1ce-4519-9f0d-85f467bc7c8c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a36ea366-8a0f-4d61-b362-e4ed64af463e",
+        "amount": 48192,
+        "created_at": "2023-08-05T10:56:07.351Z",
+        "updated_at": "2023-08-04T20:19:25.558Z",
+        "branch_id": "a458fc41-81ea-42f2-b06b-436accf5186f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43a34e29-e86c-45ad-b2c1-e1576e64fe99",
+        "amount": 24312,
+        "created_at": "2023-08-05T05:59:31.430Z",
+        "updated_at": "2023-08-05T11:59:58.042Z",
+        "branch_id": "9a145518-b5ec-4712-b42a-44e0fca1efc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "968ecb37-17e7-44d7-93df-5e7521087160",
+        "amount": 43673,
+        "created_at": "2023-08-05T05:20:33.740Z",
+        "updated_at": "2023-08-05T11:20:11.278Z",
+        "branch_id": "4330d785-dbef-4c70-9491-9b2d46eed273",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "f162b88c-7fff-422a-b5b1-74a8971ef2ab",
+        "source": "Website",
+        "created_at": "2023-08-05T11:51:30.878Z",
+        "updated_at": "2023-08-05T11:18:37.008Z",
+        "branch_id": "db8e2069-c1ce-4519-9f0d-85f467bc7c8c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8db6ab61-d255-4f25-8e03-cc42998c0086",
+        "source": "Referral",
+        "created_at": "2023-08-05T03:46:29.264Z",
+        "updated_at": "2023-08-05T03:20:51.560Z",
+        "branch_id": "9a145518-b5ec-4712-b42a-44e0fca1efc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76bb7c6b-ddd6-47cd-bd46-2ff9000d4b0e",
+        "source": "Social Media",
+        "created_at": "2023-08-04T22:35:33.850Z",
+        "updated_at": "2023-08-04T18:04:51.044Z",
+        "branch_id": "4330d785-dbef-4c70-9491-9b2d46eed273",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53c78b55-b65e-434b-8608-d5fde53d7b88",
+        "source": "Event",
+        "created_at": "2023-08-05T06:02:07.009Z",
+        "updated_at": "2023-08-04T21:38:04.630Z",
+        "branch_id": "5164a586-8276-4574-a0a6-a7a23582f96e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5a7471c-8732-4331-ab85-2e27e84434c9",
+        "source": "Advertisement",
+        "created_at": "2023-08-05T13:03:36.060Z",
+        "updated_at": "2023-08-04T22:17:28.336Z",
+        "branch_id": "a458fc41-81ea-42f2-b06b-436accf5186f",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "59f076ca-032c-4cde-b678-19a6be2d0816",
+        "name": "Main Branch",
+        "created_at": "2023-08-04T17:43:02.086Z",
+        "updated_at": "2023-08-05T04:14:38.797Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4adc7421-6de4-4d09-b7bb-2860c3f64f3a",
+        "name": "Downtown Branch",
+        "created_at": "2023-08-05T04:05:04.213Z",
+        "updated_at": "2023-08-04T21:59:46.991Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "60426e65-df1b-4a93-9a9a-3529fcf1b973",
+        "name": "North Branch",
+        "created_at": "2023-08-04T20:13:10.546Z",
+        "updated_at": "2023-08-05T00:25:45.641Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8418337f-436d-4175-ad10-8db9169df013",
+        "name": "South Branch",
+        "created_at": "2023-08-05T02:25:15.518Z",
+        "updated_at": "2023-08-05T10:18:49.008Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b2d00c96-613a-4d32-89e8-affaabdaf111",
+        "name": "West Branch",
+        "created_at": "2023-08-05T08:42:27.313Z",
+        "updated_at": "2023-08-05T02:31:03.569Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "8c6303d6-d3cf-4a66-a1f4-e3092c4d143d",
+        "created_at": "2023-08-04T23:20:44.378Z",
+        "updated_at": "2023-08-04T23:48:27.632Z",
+        "branch_id": "60426e65-df1b-4a93-9a9a-3529fcf1b973",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e7562c5-0040-4f13-a13f-e4d52fcf12f6",
+        "created_at": "2023-08-05T00:41:51.700Z",
+        "updated_at": "2023-08-04T22:47:52.693Z",
+        "branch_id": "b2d00c96-613a-4d32-89e8-affaabdaf111",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3249fb3f-84d6-44e1-a92d-53bfc5846785",
+        "created_at": "2023-08-05T06:16:38.867Z",
+        "updated_at": "2023-08-05T00:22:15.522Z",
+        "branch_id": "59f076ca-032c-4cde-b678-19a6be2d0816",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ffac79a-b247-4a03-bfce-4ddd06e0ac28",
+        "created_at": "2023-08-05T11:54:56.093Z",
+        "updated_at": "2023-08-05T07:06:30.303Z",
+        "branch_id": "4adc7421-6de4-4d09-b7bb-2860c3f64f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "357c3b19-f3c7-48ff-bab0-5bc4a27a2de9",
+        "created_at": "2023-08-04T21:18:15.274Z",
+        "updated_at": "2023-08-05T00:34:59.910Z",
+        "branch_id": "8418337f-436d-4175-ad10-8db9169df013",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "e0b84675-f882-43f3-b4cc-b2dafe290803",
+        "amount": 57747,
+        "created_at": "2023-08-05T02:51:33.448Z",
+        "updated_at": "2023-08-05T06:25:50.114Z",
+        "branch_id": "4adc7421-6de4-4d09-b7bb-2860c3f64f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbe4319b-1c9a-4161-a17e-9cd13a16de0b",
+        "amount": 40163,
+        "created_at": "2023-08-04T18:35:29.541Z",
+        "updated_at": "2023-08-04T20:32:46.477Z",
+        "branch_id": "59f076ca-032c-4cde-b678-19a6be2d0816",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a72cbb9a-fbb7-43b8-975c-0a640611e987",
+        "amount": 90834,
+        "created_at": "2023-08-04T18:22:04.870Z",
+        "updated_at": "2023-08-04T21:52:30.430Z",
+        "branch_id": "60426e65-df1b-4a93-9a9a-3529fcf1b973",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1b9c038-64d5-4beb-9e8e-2850fcfcf740",
+        "amount": 64883,
+        "created_at": "2023-08-05T10:03:46.269Z",
+        "updated_at": "2023-08-05T06:49:23.772Z",
+        "branch_id": "b2d00c96-613a-4d32-89e8-affaabdaf111",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f20536a-8194-42d8-91dc-1e843b97ed0d",
+        "amount": 22027,
+        "created_at": "2023-08-04T17:03:47.855Z",
+        "updated_at": "2023-08-05T11:45:03.220Z",
+        "branch_id": "4adc7421-6de4-4d09-b7bb-2860c3f64f3a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "de79bdd0-d1fb-49f5-8750-f809a99fdbe5",
+        "amount": 94484,
+        "created_at": "2023-08-05T00:11:01.467Z",
+        "updated_at": "2023-08-05T12:33:24.108Z",
+        "branch_id": "4adc7421-6de4-4d09-b7bb-2860c3f64f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d66602be-c892-44f0-a440-3bd89e3170a2",
+        "amount": 44325,
+        "created_at": "2023-08-05T06:32:02.163Z",
+        "updated_at": "2023-08-05T00:00:36.573Z",
+        "branch_id": "8418337f-436d-4175-ad10-8db9169df013",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27f3d6f4-2898-4f40-a68d-72792b44d190",
+        "amount": 67333,
+        "created_at": "2023-08-04T20:01:10.125Z",
+        "updated_at": "2023-08-05T00:22:10.099Z",
+        "branch_id": "60426e65-df1b-4a93-9a9a-3529fcf1b973",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9060f3fa-c3eb-4f0b-ad8d-25affb13cea9",
+        "amount": 34757,
+        "created_at": "2023-08-05T05:24:05.029Z",
+        "updated_at": "2023-08-04T14:58:42.549Z",
+        "branch_id": "60426e65-df1b-4a93-9a9a-3529fcf1b973",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd424276-17c5-4010-9df7-829570847564",
+        "amount": 76058,
+        "created_at": "2023-08-05T07:33:19.185Z",
+        "updated_at": "2023-08-04T17:42:42.053Z",
+        "branch_id": "60426e65-df1b-4a93-9a9a-3529fcf1b973",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "91aa43ed-57ba-4138-a409-36f738b1d092",
+        "source": "Website",
+        "created_at": "2023-08-05T01:26:45.167Z",
+        "updated_at": "2023-08-04T16:33:27.478Z",
+        "branch_id": "4adc7421-6de4-4d09-b7bb-2860c3f64f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "275220cf-ead4-4673-b709-f45cd23ea9a9",
+        "source": "Referral",
+        "created_at": "2023-08-04T15:45:50.999Z",
+        "updated_at": "2023-08-05T14:33:18.235Z",
+        "branch_id": "b2d00c96-613a-4d32-89e8-affaabdaf111",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "707f93a0-3ae4-4dc9-8b93-26116c00c03f",
+        "source": "Social Media",
+        "created_at": "2023-08-05T07:09:15.152Z",
+        "updated_at": "2023-08-04T18:16:07.793Z",
+        "branch_id": "8418337f-436d-4175-ad10-8db9169df013",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "045b2615-83a3-4abc-91b3-b072b6840dfe",
+        "source": "Event",
+        "created_at": "2023-08-05T07:14:06.152Z",
+        "updated_at": "2023-08-05T07:59:48.991Z",
+        "branch_id": "60426e65-df1b-4a93-9a9a-3529fcf1b973",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c2bc39b-c20f-45e4-8ca8-d6b7026ee8ef",
+        "source": "Advertisement",
+        "created_at": "2023-08-05T10:30:29.612Z",
+        "updated_at": "2023-08-05T02:48:06.335Z",
+        "branch_id": "59f076ca-032c-4cde-b678-19a6be2d0816",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "d44125ee-a64e-4b6c-b9a5-7a73e0df9f3e",
+        "name": "New York",
+        "created_at": "2023-08-05T06:12:55.416Z",
+        "updated_at": "2023-08-05T10:30:46.097Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "name": "London",
+        "created_at": "2023-08-05T11:12:40.554Z",
+        "updated_at": "2023-08-05T02:08:43.713Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9f894a7b-c63c-4a11-a0e0-f18cea4a48bf",
+        "name": "Tokyo",
+        "created_at": "2023-08-04T16:41:22.743Z",
+        "updated_at": "2023-08-05T01:03:05.313Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "03c9d552-03cc-4e0f-9ac3-901a1ec69239",
+        "name": "Sydney",
+        "created_at": "2023-08-05T02:46:15.624Z",
+        "updated_at": "2023-08-05T01:50:52.784Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eb1294eb-6703-42cc-abd5-05c11b3eb163",
+        "name": "Paris",
+        "created_at": "2023-08-04T15:10:16.080Z",
+        "updated_at": "2023-08-05T00:29:03.186Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "2ce56d17-535c-4bbd-88c6-0fe25c1c9f92",
+        "created_at": "2023-08-05T05:50:38.854Z",
+        "updated_at": "2023-08-05T07:10:22.948Z",
+        "branch_id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8adef29-eb51-48d2-9d04-c51257c6fa6a",
+        "created_at": "2023-08-05T07:27:56.291Z",
+        "updated_at": "2023-08-05T04:30:45.495Z",
+        "branch_id": "9f894a7b-c63c-4a11-a0e0-f18cea4a48bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f00de90f-7b07-4cd5-9306-b9988a93da1c",
+        "created_at": "2023-08-04T23:09:09.387Z",
+        "updated_at": "2023-08-04T23:44:50.033Z",
+        "branch_id": "d44125ee-a64e-4b6c-b9a5-7a73e0df9f3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "304e3ddb-d311-4bc1-a4f5-372552150a8d",
+        "created_at": "2023-08-05T04:30:55.699Z",
+        "updated_at": "2023-08-05T02:45:31.099Z",
+        "branch_id": "d44125ee-a64e-4b6c-b9a5-7a73e0df9f3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c087f2d5-80a8-46c3-addb-4260fd3dbe3c",
+        "created_at": "2023-08-05T01:46:54.283Z",
+        "updated_at": "2023-08-04T16:27:38.814Z",
+        "branch_id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "e131d8a6-5f3e-44be-aa5b-8f013dce2a4f",
+        "amount": 93262,
+        "created_at": "2023-08-05T00:01:21.216Z",
+        "updated_at": "2023-08-04T19:21:06.481Z",
+        "branch_id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f35f18b-bc1b-48ff-aa88-a0f70d13be62",
+        "amount": 79992,
+        "created_at": "2023-08-05T09:28:38.745Z",
+        "updated_at": "2023-08-05T01:50:53.602Z",
+        "branch_id": "eb1294eb-6703-42cc-abd5-05c11b3eb163",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd644181-26c8-44e7-85c9-42f8de242324",
+        "amount": 71049,
+        "created_at": "2023-08-05T07:19:30.155Z",
+        "updated_at": "2023-08-05T07:06:57.671Z",
+        "branch_id": "9f894a7b-c63c-4a11-a0e0-f18cea4a48bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c1f5d06-ed2a-442c-9659-698c250a4a07",
+        "amount": 52541,
+        "created_at": "2023-08-04T20:22:11.578Z",
+        "updated_at": "2023-08-04T21:05:59.084Z",
+        "branch_id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a838a43e-91d4-4bfc-8b10-a1fd71b86493",
+        "amount": 17060,
+        "created_at": "2023-08-05T14:18:10.609Z",
+        "updated_at": "2023-08-05T09:40:34.720Z",
+        "branch_id": "9f894a7b-c63c-4a11-a0e0-f18cea4a48bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "19571ece-b19a-4f3e-964d-76ac4a5efcee",
+        "amount": 42414,
+        "created_at": "2023-08-05T13:17:09.376Z",
+        "updated_at": "2023-08-04T20:16:19.852Z",
+        "branch_id": "03c9d552-03cc-4e0f-9ac3-901a1ec69239",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57c49ef3-6609-4350-acc7-cbe89a1c95ce",
+        "amount": 18421,
+        "created_at": "2023-08-05T07:26:10.892Z",
+        "updated_at": "2023-08-04T20:27:17.851Z",
+        "branch_id": "9f894a7b-c63c-4a11-a0e0-f18cea4a48bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea560237-50a0-4ad1-b353-e52a82f39ded",
+        "amount": 89502,
+        "created_at": "2023-08-04T14:36:12.799Z",
+        "updated_at": "2023-08-05T10:58:10.408Z",
+        "branch_id": "d44125ee-a64e-4b6c-b9a5-7a73e0df9f3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5e037a4-869f-4af8-8fd7-2edb9f0e446a",
+        "amount": 47115,
+        "created_at": "2023-08-05T10:34:15.199Z",
+        "updated_at": "2023-08-04T16:36:56.844Z",
+        "branch_id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a483bb80-f87c-4eb0-a6d6-49fed2b0ff0f",
+        "amount": 38792,
+        "created_at": "2023-08-04T22:32:45.750Z",
+        "updated_at": "2023-08-04T19:27:44.881Z",
+        "branch_id": "03c9d552-03cc-4e0f-9ac3-901a1ec69239",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "b1715b02-4dd5-49dd-9344-bbed16ca0556",
+        "source": "Website",
+        "created_at": "2023-08-05T14:10:14.020Z",
+        "updated_at": "2023-08-05T00:31:48.558Z",
+        "branch_id": "d44125ee-a64e-4b6c-b9a5-7a73e0df9f3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4a58f24-697f-455a-aebf-ccab3eeef37e",
+        "source": "Referral",
+        "created_at": "2023-08-05T09:59:37.451Z",
+        "updated_at": "2023-08-05T04:56:04.214Z",
+        "branch_id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46604be4-043b-4422-a0dc-9b07b030ec6a",
+        "source": "Social Media",
+        "created_at": "2023-08-05T00:29:05.336Z",
+        "updated_at": "2023-08-05T03:01:18.069Z",
+        "branch_id": "eb1294eb-6703-42cc-abd5-05c11b3eb163",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "343a71c2-dc82-469a-b23e-0b7c58584caa",
+        "source": "Event",
+        "created_at": "2023-08-05T02:09:39.782Z",
+        "updated_at": "2023-08-05T13:25:18.895Z",
+        "branch_id": "4c57ec95-9749-47ed-ae4c-2d050fcb8f55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43b3940f-0d52-4852-91dd-d903f7d1204b",
+        "source": "Advertisement",
+        "created_at": "2023-08-04T19:05:53.208Z",
+        "updated_at": "2023-08-05T06:15:12.929Z",
+        "branch_id": "eb1294eb-6703-42cc-abd5-05c11b3eb163",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "a7781aa2-467d-4886-9578-730bd90c376c",
+        "name": "New York",
+        "created_at": "2023-08-05T03:57:50.708Z",
+        "updated_at": "2023-08-05T06:49:40.490Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "673d5da8-54ca-433d-9f0a-5cdbc16b19e5",
+        "name": "London",
+        "created_at": "2023-08-04T18:36:38.468Z",
+        "updated_at": "2023-08-04T16:35:41.030Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "100e2eff-6ef3-4e10-bc37-afbd010b2f3a",
+        "name": "Tokyo",
+        "created_at": "2023-08-05T14:26:44.479Z",
+        "updated_at": "2023-08-05T03:56:06.903Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f6939d68-8332-4afa-a791-038a024a114b",
+        "name": "Sydney",
+        "created_at": "2023-08-04T23:19:33.687Z",
+        "updated_at": "2023-08-04T15:07:26.829Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "35697530-ed83-4dd2-9e05-8825394f0710",
+        "name": "Paris",
+        "created_at": "2023-08-05T06:57:31.979Z",
+        "updated_at": "2023-08-05T04:58:52.445Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "ef80173f-fb2a-4caf-a3d7-2c07d3dbac9b",
+        "created_at": "2023-08-05T07:34:01.497Z",
+        "updated_at": "2023-08-05T09:50:58.108Z",
+        "branch_id": "f6939d68-8332-4afa-a791-038a024a114b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca33de05-34d7-417e-9f86-142725a90745",
+        "created_at": "2023-08-05T04:12:56.380Z",
+        "updated_at": "2023-08-04T16:47:14.253Z",
+        "branch_id": "673d5da8-54ca-433d-9f0a-5cdbc16b19e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c655f376-3466-491e-b169-6f7e8db082e1",
+        "created_at": "2023-08-04T15:28:24.648Z",
+        "updated_at": "2023-08-05T04:02:27.425Z",
+        "branch_id": "100e2eff-6ef3-4e10-bc37-afbd010b2f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75093593-b36f-4b53-9ac9-b406f5383d0d",
+        "created_at": "2023-08-05T01:46:08.053Z",
+        "updated_at": "2023-08-04T22:59:29.109Z",
+        "branch_id": "100e2eff-6ef3-4e10-bc37-afbd010b2f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3626191f-6ae9-4648-a822-303b10756323",
+        "created_at": "2023-08-04T23:24:54.830Z",
+        "updated_at": "2023-08-04T21:26:58.361Z",
+        "branch_id": "a7781aa2-467d-4886-9578-730bd90c376c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "519436c4-b53c-48fa-9b82-ec4748341e29",
+        "amount": 32502,
+        "created_at": "2023-08-04T20:49:05.734Z",
+        "updated_at": "2023-08-05T04:05:28.419Z",
+        "branch_id": "a7781aa2-467d-4886-9578-730bd90c376c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecca5005-2f8e-44b2-95de-e6b30bd33255",
+        "amount": 12549,
+        "created_at": "2023-08-05T08:32:20.661Z",
+        "updated_at": "2023-08-04T18:11:34.509Z",
+        "branch_id": "f6939d68-8332-4afa-a791-038a024a114b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cee1e213-2a68-4d96-ba8c-b10632643a86",
+        "amount": 31794,
+        "created_at": "2023-08-05T04:26:11.048Z",
+        "updated_at": "2023-08-05T04:54:08.242Z",
+        "branch_id": "673d5da8-54ca-433d-9f0a-5cdbc16b19e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "027105c2-7e14-4ab0-8166-cc5ba5a1b9d2",
+        "amount": 16572,
+        "created_at": "2023-08-05T06:24:16.469Z",
+        "updated_at": "2023-08-04T18:01:00.447Z",
+        "branch_id": "673d5da8-54ca-433d-9f0a-5cdbc16b19e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a119f6bc-4d02-4098-9290-8bb047e83e05",
+        "amount": 61149,
+        "created_at": "2023-08-04T15:35:12.994Z",
+        "updated_at": "2023-08-04T18:09:05.416Z",
+        "branch_id": "f6939d68-8332-4afa-a791-038a024a114b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "a18b6f18-47c8-46aa-b2db-71731064202d",
+        "amount": 79281,
+        "created_at": "2023-08-05T09:44:17.215Z",
+        "updated_at": "2023-08-04T19:57:30.030Z",
+        "branch_id": "100e2eff-6ef3-4e10-bc37-afbd010b2f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb4257ca-96c0-4ea7-a32c-f534565382dd",
+        "amount": 68306,
+        "created_at": "2023-08-05T09:53:49.480Z",
+        "updated_at": "2023-08-05T12:23:12.179Z",
+        "branch_id": "a7781aa2-467d-4886-9578-730bd90c376c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a0b366f-fca7-41ae-abca-576a67d30825",
+        "amount": 70266,
+        "created_at": "2023-08-05T08:39:54.129Z",
+        "updated_at": "2023-08-04T15:38:25.704Z",
+        "branch_id": "35697530-ed83-4dd2-9e05-8825394f0710",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "815056a3-453c-4e62-b3a6-6fbf29013e5d",
+        "amount": 85245,
+        "created_at": "2023-08-05T00:31:19.401Z",
+        "updated_at": "2023-08-05T13:36:06.543Z",
+        "branch_id": "673d5da8-54ca-433d-9f0a-5cdbc16b19e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cea22ee6-1ae3-4671-bc6e-633343ee3d9e",
+        "amount": 35052,
+        "created_at": "2023-08-05T10:43:52.096Z",
+        "updated_at": "2023-08-04T21:42:13.945Z",
+        "branch_id": "a7781aa2-467d-4886-9578-730bd90c376c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "def6a337-1c40-4401-9568-225da0161378",
+        "source": "Website",
+        "created_at": "2023-08-05T10:10:28.860Z",
+        "updated_at": "2023-08-05T06:06:59.541Z",
+        "branch_id": "673d5da8-54ca-433d-9f0a-5cdbc16b19e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aadd1e1e-7737-493e-8381-4d5064568031",
+        "source": "Referral",
+        "created_at": "2023-08-05T01:15:59.978Z",
+        "updated_at": "2023-08-04T16:21:19.429Z",
+        "branch_id": "a7781aa2-467d-4886-9578-730bd90c376c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2301fc3-92bf-4609-93f4-723aed97aa5b",
+        "source": "Social Media",
+        "created_at": "2023-08-05T04:02:00.416Z",
+        "updated_at": "2023-08-04T21:59:16.697Z",
+        "branch_id": "100e2eff-6ef3-4e10-bc37-afbd010b2f3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db714bf4-1804-442e-9d12-201f0298285b",
+        "source": "Event",
+        "created_at": "2023-08-05T10:58:03.566Z",
+        "updated_at": "2023-08-04T17:33:36.636Z",
+        "branch_id": "f6939d68-8332-4afa-a791-038a024a114b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4f3f4b4-4a68-4ef6-9d50-e0a8598eec69",
+        "source": "Advertisement",
+        "created_at": "2023-08-04T16:12:30.058Z",
+        "updated_at": "2023-08-04T14:48:34.465Z",
+        "branch_id": "673d5da8-54ca-433d-9f0a-5cdbc16b19e5",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "b827a136-ab44-4984-9566-4691670b61c1",
+        "name": "New York",
+        "created_at": "2023-08-04T23:36:12.610Z",
+        "updated_at": "2023-08-05T07:37:37.218Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "095ff3ae-6337-48f5-a982-5644d3ebdb6c",
+        "name": "London",
+        "created_at": "2023-08-05T04:50:05.822Z",
+        "updated_at": "2023-08-05T05:06:44.381Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "47a140c5-5feb-462d-a3f2-98fb3e8933bf",
+        "name": "Tokyo",
+        "created_at": "2023-08-04T19:16:13.686Z",
+        "updated_at": "2023-08-04T14:36:15.037Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d836a75-ac72-467e-8225-3a592cff0fb5",
+        "name": "Sydney",
+        "created_at": "2023-08-05T00:06:40.893Z",
+        "updated_at": "2023-08-05T11:18:22.563Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f7bb69de-d886-4897-bbdc-43083b85c510",
+        "name": "Paris",
+        "created_at": "2023-08-05T06:24:13.815Z",
+        "updated_at": "2023-08-05T12:58:19.998Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "2c18ac6e-8976-4ea0-a249-830a07a69579",
+        "created_at": "2023-08-05T00:18:28.109Z",
+        "updated_at": "2023-08-04T17:42:42.673Z",
+        "branch_id": "b827a136-ab44-4984-9566-4691670b61c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "152e87bb-552e-457d-985d-d6762148cc2d",
+        "created_at": "2023-08-05T09:10:18.925Z",
+        "updated_at": "2023-08-05T00:31:45.849Z",
+        "branch_id": "b827a136-ab44-4984-9566-4691670b61c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9169c2ed-0be7-42c0-bb3d-d35d3255808f",
+        "created_at": "2023-08-04T22:12:41.334Z",
+        "updated_at": "2023-08-05T02:21:38.960Z",
+        "branch_id": "47a140c5-5feb-462d-a3f2-98fb3e8933bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5437563f-6b6d-4af9-8d4e-08a1f12caaba",
+        "created_at": "2023-08-05T12:07:11.258Z",
+        "updated_at": "2023-08-04T16:25:37.770Z",
+        "branch_id": "4d836a75-ac72-467e-8225-3a592cff0fb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9938e1e-0229-4ae7-89e5-5abc21c358ae",
+        "created_at": "2023-08-05T00:16:07.984Z",
+        "updated_at": "2023-08-05T09:33:38.751Z",
+        "branch_id": "47a140c5-5feb-462d-a3f2-98fb3e8933bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "8f3c6f58-1fcf-4951-8d08-ead5457d23f8",
+        "amount": 68962,
+        "created_at": "2023-08-04T17:33:34.667Z",
+        "updated_at": "2023-08-05T05:02:09.030Z",
+        "branch_id": "b827a136-ab44-4984-9566-4691670b61c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c0fcb8a-c4ce-4b33-b095-390f8f5f9d4e",
+        "amount": 88305,
+        "created_at": "2023-08-05T13:37:19.928Z",
+        "updated_at": "2023-08-04T17:48:50.107Z",
+        "branch_id": "f7bb69de-d886-4897-bbdc-43083b85c510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fd81ccb-af63-4220-9a75-f8a8b2e112b2",
+        "amount": 48480,
+        "created_at": "2023-08-05T00:07:05.530Z",
+        "updated_at": "2023-08-05T08:39:13.748Z",
+        "branch_id": "f7bb69de-d886-4897-bbdc-43083b85c510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca224bf6-7ada-40da-a93d-7ca834076aa1",
+        "amount": 25974,
+        "created_at": "2023-08-05T13:06:27.103Z",
+        "updated_at": "2023-08-04T21:42:56.084Z",
+        "branch_id": "4d836a75-ac72-467e-8225-3a592cff0fb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e833d56-d259-4abc-992f-a618f40be139",
+        "amount": 11350,
+        "created_at": "2023-08-05T00:18:01.737Z",
+        "updated_at": "2023-08-05T01:21:17.649Z",
+        "branch_id": "47a140c5-5feb-462d-a3f2-98fb3e8933bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "4bf9296d-6230-46c9-aa89-0e4065410999",
+        "amount": 54709,
+        "created_at": "2023-08-04T19:33:28.944Z",
+        "updated_at": "2023-08-05T00:32:50.420Z",
+        "branch_id": "f7bb69de-d886-4897-bbdc-43083b85c510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd7b3550-6677-49ca-aa3f-f48a007f3e3c",
+        "amount": 36733,
+        "created_at": "2023-08-04T15:30:44.822Z",
+        "updated_at": "2023-08-04T15:04:42.465Z",
+        "branch_id": "f7bb69de-d886-4897-bbdc-43083b85c510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e495cdc-6d39-4d1d-8d2e-8cf61b5aa7b7",
+        "amount": 88932,
+        "created_at": "2023-08-04T22:54:12.543Z",
+        "updated_at": "2023-08-04T16:44:20.911Z",
+        "branch_id": "095ff3ae-6337-48f5-a982-5644d3ebdb6c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcbf4c3d-8c9b-47a7-9045-1295ca69d674",
+        "amount": 72862,
+        "created_at": "2023-08-05T03:21:26.045Z",
+        "updated_at": "2023-08-05T11:55:09.650Z",
+        "branch_id": "f7bb69de-d886-4897-bbdc-43083b85c510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c4141b6-8c07-4136-89c1-16ae8dd3f9b8",
+        "amount": 66134,
+        "created_at": "2023-08-04T14:49:55.008Z",
+        "updated_at": "2023-08-05T14:00:22.625Z",
+        "branch_id": "4d836a75-ac72-467e-8225-3a592cff0fb5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "f8dc812b-1265-43dc-8195-db2501910672",
+        "source": "Website",
+        "created_at": "2023-08-05T01:34:37.870Z",
+        "updated_at": "2023-08-04T18:52:40.478Z",
+        "branch_id": "4d836a75-ac72-467e-8225-3a592cff0fb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0da6e25-5b8d-4c23-a546-5a1503305eff",
+        "source": "Referral",
+        "created_at": "2023-08-05T03:16:21.738Z",
+        "updated_at": "2023-08-04T16:21:20.230Z",
+        "branch_id": "095ff3ae-6337-48f5-a982-5644d3ebdb6c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15318576-4c8d-40e4-a833-cf6698801e20",
+        "source": "Social Media",
+        "created_at": "2023-08-05T14:22:27.881Z",
+        "updated_at": "2023-08-05T07:38:32.993Z",
+        "branch_id": "4d836a75-ac72-467e-8225-3a592cff0fb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8c47777-1752-406d-a29f-9d90125591c9",
+        "source": "Event",
+        "created_at": "2023-08-05T04:04:19.324Z",
+        "updated_at": "2023-08-04T19:45:09.570Z",
+        "branch_id": "095ff3ae-6337-48f5-a982-5644d3ebdb6c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404b48aa-6bea-4cd3-b46a-8be8d9de117a",
+        "source": "Advertisement",
+        "created_at": "2023-08-05T04:37:54.062Z",
+        "updated_at": "2023-08-05T10:38:38.431Z",
+        "branch_id": "47a140c5-5feb-462d-a3f2-98fb3e8933bf",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "d36558d6-b957-44b7-92aa-81e665a2bab6",
+        "name": "Main Branch",
+        "created_at": "2023-08-04T16:23:29.363Z",
+        "updated_at": "2023-08-04T21:25:19.618Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5d6dcdbd-2a92-4992-82a6-73ef59928e5d",
+        "name": "Downtown Branch",
+        "created_at": "2023-08-04T22:54:41.090Z",
+        "updated_at": "2023-08-05T05:26:28.918Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0a636559-a80b-41cc-bfcd-b0335363fd23",
+        "name": "North Branch",
+        "created_at": "2023-08-05T13:48:59.565Z",
+        "updated_at": "2023-08-04T23:30:04.175Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "253bd988-da9c-4d42-bcd7-13e6aa37e831",
+        "name": "South Branch",
+        "created_at": "2023-08-04T21:46:26.159Z",
+        "updated_at": "2023-08-05T10:25:22.891Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "name": "West Branch",
+        "created_at": "2023-08-04T17:27:10.409Z",
+        "updated_at": "2023-08-05T13:31:26.146Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "19b45d6d-c5eb-48d9-8326-10d4a3e178b3",
+        "created_at": "2023-08-05T08:52:29.644Z",
+        "updated_at": "2023-08-05T03:18:58.285Z",
+        "branch_id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d505bd2c-4c05-4da1-b82c-0a69ba8ccc89",
+        "created_at": "2023-08-05T10:09:23.291Z",
+        "updated_at": "2023-08-05T02:14:39.805Z",
+        "branch_id": "253bd988-da9c-4d42-bcd7-13e6aa37e831",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8ce79e7-6b89-41c6-b240-30a51f84b7f7",
+        "created_at": "2023-08-05T01:10:07.059Z",
+        "updated_at": "2023-08-05T05:38:07.422Z",
+        "branch_id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c95cd2f9-77dd-48c0-89e2-3e15216ea95a",
+        "created_at": "2023-08-05T03:59:19.584Z",
+        "updated_at": "2023-08-04T15:50:08.361Z",
+        "branch_id": "d36558d6-b957-44b7-92aa-81e665a2bab6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "864cfcb5-6dfb-4d8e-ae20-731e0a685cf3",
+        "created_at": "2023-08-04T21:51:12.290Z",
+        "updated_at": "2023-08-04T20:44:25.498Z",
+        "branch_id": "0a636559-a80b-41cc-bfcd-b0335363fd23",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "57c1715f-9b96-4728-9166-659202ed7253",
+        "amount": 69646,
+        "created_at": "2023-08-04T16:57:33.892Z",
+        "updated_at": "2023-08-04T22:34:42.160Z",
+        "branch_id": "5d6dcdbd-2a92-4992-82a6-73ef59928e5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2a4a1e0-72af-4ebe-a4d3-3267271112a3",
+        "amount": 19256,
+        "created_at": "2023-08-05T13:32:55.397Z",
+        "updated_at": "2023-08-05T01:33:48.182Z",
+        "branch_id": "5d6dcdbd-2a92-4992-82a6-73ef59928e5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bb7f6eb-44d1-4e63-93f2-d28593fe5b28",
+        "amount": 40237,
+        "created_at": "2023-08-05T03:17:22.554Z",
+        "updated_at": "2023-08-05T12:08:26.249Z",
+        "branch_id": "5d6dcdbd-2a92-4992-82a6-73ef59928e5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0f8fc89-188e-45fe-b59e-49e86bc0f44d",
+        "amount": 47207,
+        "created_at": "2023-08-05T01:35:20.163Z",
+        "updated_at": "2023-08-04T16:11:20.544Z",
+        "branch_id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46c48931-d2aa-4c89-b603-01d113183835",
+        "amount": 21401,
+        "created_at": "2023-08-04T23:50:08.875Z",
+        "updated_at": "2023-08-05T07:22:33.375Z",
+        "branch_id": "253bd988-da9c-4d42-bcd7-13e6aa37e831",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "29643d4d-2ef8-4369-a145-e57f532c259e",
+        "amount": 10693,
+        "created_at": "2023-08-04T22:26:22.177Z",
+        "updated_at": "2023-08-05T09:16:42.100Z",
+        "branch_id": "5d6dcdbd-2a92-4992-82a6-73ef59928e5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6384153b-1d5c-460d-9816-00e1cd6650ff",
+        "amount": 58878,
+        "created_at": "2023-08-04T22:46:39.257Z",
+        "updated_at": "2023-08-05T13:51:42.347Z",
+        "branch_id": "d36558d6-b957-44b7-92aa-81e665a2bab6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e0824d6-aa9d-48c3-99e7-4f2f6f51e2aa",
+        "amount": 19240,
+        "created_at": "2023-08-04T18:18:14.193Z",
+        "updated_at": "2023-08-05T10:29:53.289Z",
+        "branch_id": "0a636559-a80b-41cc-bfcd-b0335363fd23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49edbf1b-86b7-48bb-bd99-950a0ff89f69",
+        "amount": 58308,
+        "created_at": "2023-08-05T05:08:58.027Z",
+        "updated_at": "2023-08-05T08:09:16.435Z",
+        "branch_id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a35cdbeb-32f3-464a-a985-303153c3ff57",
+        "amount": 94270,
+        "created_at": "2023-08-04T17:54:53.971Z",
+        "updated_at": "2023-08-05T07:25:18.780Z",
+        "branch_id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "68328ede-5fb1-4c64-ae15-6ddc69539cfc",
+        "source": "Website",
+        "created_at": "2023-08-05T06:27:04.831Z",
+        "updated_at": "2023-08-04T17:27:05.002Z",
+        "branch_id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2801d711-d2b3-4d6f-b4ec-14cf4f8b2eab",
+        "source": "Referral",
+        "created_at": "2023-08-05T04:19:25.391Z",
+        "updated_at": "2023-08-04T20:02:43.463Z",
+        "branch_id": "a3892a5d-835f-48d7-b7e9-81c051cd48da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c060e285-7bcb-4e33-be9f-c76aa74acb43",
+        "source": "Social Media",
+        "created_at": "2023-08-05T12:43:38.229Z",
+        "updated_at": "2023-08-04T21:29:23.161Z",
+        "branch_id": "d36558d6-b957-44b7-92aa-81e665a2bab6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37c8beb1-afca-45ca-83ec-f4d8a3f68125",
+        "source": "Event",
+        "created_at": "2023-08-04T21:58:10.554Z",
+        "updated_at": "2023-08-05T05:06:12.038Z",
+        "branch_id": "0a636559-a80b-41cc-bfcd-b0335363fd23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e7c1a6f-62b0-4357-be01-7014c6210fc1",
+        "source": "Advertisement",
+        "created_at": "2023-08-04T23:41:43.469Z",
+        "updated_at": "2023-08-04T21:35:22.276Z",
+        "branch_id": "253bd988-da9c-4d42-bcd7-13e6aa37e831",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "branch": [
+      {
+        "id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "name": "Main Branch",
+        "created_at": "2023-08-05T00:26:24.091Z",
+        "updated_at": "2023-08-05T09:48:33.114Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "641cc4ce-022a-4d40-aa44-8288ca4c225d",
+        "name": "Downtown Branch",
+        "created_at": "2023-08-04T19:46:49.741Z",
+        "updated_at": "2023-08-05T12:54:59.185Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "763d88c1-aafe-4471-aae5-69feb6deaa0f",
+        "name": "North Branch",
+        "created_at": "2023-08-04T22:04:53.509Z",
+        "updated_at": "2023-08-05T00:57:15.518Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4275a7e5-1936-4661-9d4f-146d0b24c081",
+        "name": "South Branch",
+        "created_at": "2023-08-04T17:19:55.365Z",
+        "updated_at": "2023-08-04T21:23:50.715Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fc86715b-7020-4534-8d46-8a396be9ff41",
+        "name": "West Branch",
+        "created_at": "2023-08-04T15:32:15.327Z",
+        "updated_at": "2023-08-05T06:15:09.610Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "test_ride": [
+      {
+        "id": "8265f4d2-f2d4-4fb6-a18a-f1bd8a7adb11",
+        "created_at": "2023-08-05T09:55:25.418Z",
+        "updated_at": "2023-08-05T00:16:47.123Z",
+        "branch_id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c92257fe-35a8-41c7-91d8-2f4e8d4e5f80",
+        "created_at": "2023-08-05T03:54:35.760Z",
+        "updated_at": "2023-08-05T12:19:18.923Z",
+        "branch_id": "4275a7e5-1936-4661-9d4f-146d0b24c081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "875d025e-9b54-4071-948c-5f5175ce9c6d",
+        "created_at": "2023-08-05T09:14:54.055Z",
+        "updated_at": "2023-08-05T04:51:41.719Z",
+        "branch_id": "641cc4ce-022a-4d40-aa44-8288ca4c225d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "953c8018-d533-4980-9307-7f521b81b041",
+        "created_at": "2023-08-05T06:33:16.219Z",
+        "updated_at": "2023-08-05T01:59:42.384Z",
+        "branch_id": "641cc4ce-022a-4d40-aa44-8288ca4c225d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d0bdb75-bf17-446a-bca3-9ec0a5ea6de8",
+        "created_at": "2023-08-04T21:04:23.218Z",
+        "updated_at": "2023-08-05T01:50:58.719Z",
+        "branch_id": "4275a7e5-1936-4661-9d4f-146d0b24c081",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_record": [
+      {
+        "id": "8c64cc55-7fea-455b-bc60-4c7f02656e2c",
+        "amount": 15131,
+        "created_at": "2023-08-05T05:09:02.376Z",
+        "updated_at": "2023-08-04T17:04:10.888Z",
+        "branch_id": "fc86715b-7020-4534-8d46-8a396be9ff41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43311a65-e140-4d79-b09e-141d5e7a587f",
+        "amount": 60553,
+        "created_at": "2023-08-05T01:40:35.180Z",
+        "updated_at": "2023-08-05T02:39:43.650Z",
+        "branch_id": "641cc4ce-022a-4d40-aa44-8288ca4c225d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74b525f9-6aa6-4e93-ab7a-47f04bd46c79",
+        "amount": 91235,
+        "created_at": "2023-08-05T09:46:08.295Z",
+        "updated_at": "2023-08-04T22:29:36.472Z",
+        "branch_id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f5a2c82-34b6-49bc-94cb-832f13c30eba",
+        "amount": 13755,
+        "created_at": "2023-08-05T05:24:32.138Z",
+        "updated_at": "2023-08-04T16:51:20.675Z",
+        "branch_id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e76d575-d576-4b0a-bd61-b884e2da063e",
+        "amount": 60301,
+        "created_at": "2023-08-05T00:31:27.751Z",
+        "updated_at": "2023-08-05T01:06:08.853Z",
+        "branch_id": "763d88c1-aafe-4471-aae5-69feb6deaa0f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_record": [
+      {
+        "id": "ca33b9a6-ad77-48d6-9806-2c0880d4fadb",
+        "amount": 30277,
+        "created_at": "2023-08-04T23:38:35.263Z",
+        "updated_at": "2023-08-04T18:49:57.910Z",
+        "branch_id": "763d88c1-aafe-4471-aae5-69feb6deaa0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0efbd26-7699-43ef-97d8-7801e26e74cd",
+        "amount": 45684,
+        "created_at": "2023-08-05T04:45:42.711Z",
+        "updated_at": "2023-08-04T15:13:33.439Z",
+        "branch_id": "fc86715b-7020-4534-8d46-8a396be9ff41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cc7291d-21f9-4fb2-a9ab-35e02f93f250",
+        "amount": 71197,
+        "created_at": "2023-08-04T18:10:45.182Z",
+        "updated_at": "2023-08-05T12:35:57.367Z",
+        "branch_id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cce496cd-bc95-4620-93b6-0bca4e4a2d8d",
+        "amount": 19430,
+        "created_at": "2023-08-05T02:58:59.447Z",
+        "updated_at": "2023-08-05T02:21:35.404Z",
+        "branch_id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2a3d126-5704-45c8-9f0a-d7c4d16d77c4",
+        "amount": 13780,
+        "created_at": "2023-08-04T22:43:23.196Z",
+        "updated_at": "2023-08-04T22:25:57.385Z",
+        "branch_id": "641cc4ce-022a-4d40-aa44-8288ca4c225d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "enquiry": [
+      {
+        "id": "6277de4d-7dd8-4687-8e85-4b0fb3ab99fb",
+        "source": "Website",
+        "created_at": "2023-08-04T16:03:24.711Z",
+        "updated_at": "2023-08-05T09:52:58.111Z",
+        "branch_id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fd566fe-b704-4f74-8c79-f8a6b3963578",
+        "source": "Referral",
+        "created_at": "2023-08-05T01:55:26.533Z",
+        "updated_at": "2023-08-05T14:00:07.225Z",
+        "branch_id": "763d88c1-aafe-4471-aae5-69feb6deaa0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4dff4d91-5862-4205-8385-ccbe6251ceba",
+        "source": "Social Media",
+        "created_at": "2023-08-04T17:54:17.351Z",
+        "updated_at": "2023-08-04T21:59:14.512Z",
+        "branch_id": "763d88c1-aafe-4471-aae5-69feb6deaa0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63d5f2e2-c4f7-4695-abd2-9bdafd73b823",
+        "source": "Event",
+        "created_at": "2023-08-05T04:36:24.993Z",
+        "updated_at": "2023-08-05T02:36:10.638Z",
+        "branch_id": "b2b5f106-6323-46ca-81c7-a66d19ccc5c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "338cabe1-f096-4910-be1a-1188e5baa8ae",
+        "source": "Advertisement",
+        "created_at": "2023-08-05T09:24:30.802Z",
+        "updated_at": "2023-08-05T07:37:10.096Z",
+        "branch_id": "4275a7e5-1936-4661-9d4f-146d0b24c081",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
